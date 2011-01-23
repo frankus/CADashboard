@@ -1,0 +1,566 @@
+TCycleAnalyst
+v7
+r0
+t313206382.381417
+cCheck dependencies
+cCpResource build/Debug-iphoneos/CycleAnalyst.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/Info.plist CycleAnalyst-Info.plist
+cCompileXIB /Users/frank/Projects/CycleAnalyst/FlipsideView.xib
+cCompileXIB /Users/frank/Projects/CycleAnalyst/MainView.xib
+cCompileXIB /Users/frank/Projects/CycleAnalyst/MainWindow.xib
+cProcessPCH /var/folders/-u/-ulM2hq12RWhR++8ZSzJp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleAnalyst_Prefix-giqrbbxtvafaqvcfpdannohpvoos/CycleAnalyst_Prefix.pch.gch CycleAnalyst_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/-u/-ulM2hq12RWhR++8ZSzJp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleAnalyst_Prefix-gbmzcvgzqhowgvbzuinjxnbfpgzo/CycleAnalyst_Prefix.pch.gch CycleAnalyst_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/main.o /Users/frank/Projects/CycleAnalyst/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/CycleAnalystAppDelegate.o /Users/frank/Projects/CycleAnalyst/Classes/CycleAnalystAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/MainViewController.o /Users/frank/Projects/CycleAnalyst/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/FlipsideViewController.o /Users/frank/Projects/CycleAnalyst/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/SpeedometerView.o /Users/frank/Projects/CycleAnalyst/SpeedometerView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/main.o /Users/frank/Projects/CycleAnalyst/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/CycleAnalystAppDelegate.o /Users/frank/Projects/CycleAnalyst/Classes/CycleAnalystAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/MainViewController.o /Users/frank/Projects/CycleAnalyst/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/CycleAnalyst normal armv6
+cCompileC build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/FlipsideViewController.o /Users/frank/Projects/CycleAnalyst/Classes/FlipsideViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/SpeedometerView.o /Users/frank/Projects/CycleAnalyst/SpeedometerView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/CycleAnalyst normal armv7
+cCreateUniversalBinary /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/CycleAnalyst normal "armv6 armv7"
+cGenerateDSYMFile /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app.dSYM /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/CycleAnalyst
+cProcessProductPackaging "/Users/frank/Library/MobileDevice/Provisioning Profiles/AC8F20E7-0A6C-4A5F-B4C9-3CF8F1E11E49.mobileprovision" /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/embedded.mobileprovision
+cTouch /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app
+cProcessProductPackaging /Users/frank/Projects/CycleAnalyst/Entitlements.plist /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst.xcent
+cCodeSign /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1111C00000000000000C4
+t1287721244
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC1127D0000000000267530
+t1287721597
+s2520368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/Availability.h
+c000000004CB3FBB80000000000001ADD
+t1286863800
+s6877
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/math.h
+c000000004CB3E44400000000000004F1
+t1286857796
+s1265
+
+N/Users/frank/Library/MobileDevice/Provisioning Profiles/AC8F20E7-0A6C-4A5F-B4C9-3CF8F1E11E49.mobileprovision
+c000000004CF868BF0000000000001E70
+t1291348159
+s7792
+
+N/Users/frank/Projects/CycleAnalyst/Classes/CycleAnalystAppDelegate.h
+c000000004CFAD30A00000000000001ED
+t1291506442
+s493
+i<UIKit/UIKit.h>
+
+N/Users/frank/Projects/CycleAnalyst/Classes/CycleAnalystAppDelegate.m
+c000000004CFAD30A0000000000000AB9
+t1291506442
+s2745
+i"CycleAnalystAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/frank/Projects/CycleAnalyst/Classes/FlipsideViewController.h
+c000000004CFAD30A0000000000000236
+t1291506442
+s566
+i<UIKit/UIKit.h>
+
+N/Users/frank/Projects/CycleAnalyst/Classes/FlipsideViewController.m
+c000000004CFAD30A000000000000045B
+t1291506442
+s1115
+i"FlipsideViewController.h"
+
+N/Users/frank/Projects/CycleAnalyst/Classes/MainViewController.h
+c000000004CFAD30A0000000000000139
+t1291506442
+s313
+i"FlipsideViewController.h"
+
+N/Users/frank/Projects/CycleAnalyst/Classes/MainViewController.m
+c000000004CFAD30A00000000000005D8
+t1291506442
+s1496
+i"MainViewController.h"
+
+N/Users/frank/Projects/CycleAnalyst/CycleAnalyst_Prefix.pch
+c000000004CFAD30A000000000000014A
+t1291506442
+s330
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/frank/Projects/CycleAnalyst/Entitlements.plist
+c000000004CFAEED60000000000000192
+t1291513558
+s402
+
+N/Users/frank/Projects/CycleAnalyst/FlipsideView.xib
+c000000004CFAD30A0000000000004C63
+t1291506442
+s19555
+
+N/Users/frank/Projects/CycleAnalyst/MainView.xib
+c000000004CFAE3A8000000000000617F
+t1291510696
+s24959
+
+N/Users/frank/Projects/CycleAnalyst/MainWindow.xib
+c000000004CFAD30A00000000000050AC
+t1291506442
+s20652
+
+N/Users/frank/Projects/CycleAnalyst/SpeedometerView.h
+c000000004CFAEE4E00000000000004DA
+t1291513422
+s1242
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/frank/Projects/CycleAnalyst/SpeedometerView.m
+c000000004CFAEE580000000000000FFE
+t1291513432
+s4094
+i"SpeedometerView.h"
+i<math.h>
+
+N/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst.xcent
+t1291513582
+s424
+
+N/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/CycleAnalyst
+t1291513581
+s35596
+
+N/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/CycleAnalyst.LinkFileList
+c000000004CFAEEEA00000000000002A0
+t1291513578
+s672
+
+N/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/CycleAnalystAppDelegate.o
+t1291513581
+s50724
+
+N/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/FlipsideViewController.o
+t1291513581
+s40616
+
+N/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/MainViewController.o
+t1291513581
+s40336
+
+N/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/SpeedometerView.o
+t1291513581
+s65024
+
+N/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/main.o
+t1291513581
+s6440
+
+N/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/CycleAnalyst
+t1291513581
+s34792
+
+N/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/CycleAnalyst.LinkFileList
+c000000004CFAEEEA00000000000002A0
+t1291513578
+s672
+
+N/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/CycleAnalystAppDelegate.o
+t1291513581
+s50644
+
+N/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/FlipsideViewController.o
+t1291513581
+s40564
+
+N/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/MainViewController.o
+t1291513581
+s40288
+
+N/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/SpeedometerView.o
+t1291513581
+s61796
+
+N/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/main.o
+t1291513581
+s6424
+
+N/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app
+t1291513582
+s408
+
+N/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app.dSYM
+t1291513582
+s102
+
+N/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/CycleAnalyst
+t1291513581
+s75752
+
+N/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/FlipsideView.nib
+t1291513579
+s1194
+
+N/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/Info.plist
+t1291513578
+s798
+
+N/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/MainView.nib
+t1291513579
+s2219
+
+N/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/MainWindow.nib
+t1291513579
+s1154
+
+N/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/PkgInfo
+t1291513578
+s8
+
+N/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/ResourceRules.plist
+t1291513578
+s485
+
+N/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/embedded.mobileprovision
+t1291513582
+s7792
+
+N/Users/frank/Projects/CycleAnalyst/main.m
+c000000004CFAD30A000000000000016E
+t1291506442
+s366
+i<UIKit/UIKit.h>
+
+N/var/folders/-u/-ulM2hq12RWhR++8ZSzJp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleAnalyst_Prefix-gbmzcvgzqhowgvbzuinjxnbfpgzo/CycleAnalyst_Prefix.pch.gch
+t1291513580
+s10446552
+
+N/var/folders/-u/-ulM2hq12RWhR++8ZSzJp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleAnalyst_Prefix-giqrbbxtvafaqvcfpdannohpvoos/CycleAnalyst_Prefix.pch.gch
+t1291513580
+s9983704
+
+NCycleAnalyst-Info.plist
+c000000004CFAEEEA000000000000038A
+t1291513578
+s906
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies313206378#313206378#0(0"0(0#1#0"8622234944#0"0#
+
+CCodeSign /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app
+s313206382.032699
+e313206382.381368
+r1
+xCodeSign
+x/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app
+lSLF07#2@46"CodeSign build/Debug-iphoneos/CycleAnalyst.app313206382#313206382#0(0"0(0#0#72"/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app8628401600#658"    cd /Users/frank/Projects/CycleAnalyst    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Frank Schmitt (F8JG6K9AML)" --resource-rules=/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/ResourceRules.plist --entitlements /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst.xcent /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app0#
+
+CCompileC build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/CycleAnalystAppDelegate.o /Users/frank/Projects/CycleAnalyst/Classes/CycleAnalystAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313206380.933506
+e313206381.106622
+r1
+xCompileC
+xbuild/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/CycleAnalystAppDelegate.o
+x/Users/frank/Projects/CycleAnalyst/Classes/CycleAnalystAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/frank/Projects/CycleAnalyst/Classes/CycleAnalystAppDelegate.m313206380#313206381#0(0"0(0#0#68"/Users/frank/Projects/CycleAnalyst/Classes/CycleAnalystAppDelegate.m8627362112#1826"    cd /Users/frank/Projects/CycleAnalyst    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-generated-files.hmap -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-own-target-headers.hmap -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-all-target-headers.hmap -iquote /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-project-headers.hmap -F/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos -I/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/include -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/DerivedSources/armv6 -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/DerivedSources -include /var/folders/-u/-ulM2hq12RWhR++8ZSzJp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleAnalyst_Prefix-giqrbbxtvafaqvcfpdannohpvoos/CycleAnalyst_Prefix.pch -c /Users/frank/Projects/CycleAnalyst/Classes/CycleAnalystAppDelegate.m -o /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/CycleAnalystAppDelegate.o0#
+
+CCompileC build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/FlipsideViewController.o /Users/frank/Projects/CycleAnalyst/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313206381.106742
+e313206381.219187
+r1
+xCompileC
+xbuild/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/FlipsideViewController.o
+x/Users/frank/Projects/CycleAnalyst/Classes/FlipsideViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/frank/Projects/CycleAnalyst/Classes/FlipsideViewController.m313206381#313206381#0(0"0(0#0#67"/Users/frank/Projects/CycleAnalyst/Classes/FlipsideViewController.m8601611424#1824"    cd /Users/frank/Projects/CycleAnalyst    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-generated-files.hmap -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-own-target-headers.hmap -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-all-target-headers.hmap -iquote /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-project-headers.hmap -F/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos -I/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/include -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/DerivedSources/armv6 -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/DerivedSources -include /var/folders/-u/-ulM2hq12RWhR++8ZSzJp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleAnalyst_Prefix-giqrbbxtvafaqvcfpdannohpvoos/CycleAnalyst_Prefix.pch -c /Users/frank/Projects/CycleAnalyst/Classes/FlipsideViewController.m -o /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/FlipsideViewController.o0#
+
+CCompileC build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/MainViewController.o /Users/frank/Projects/CycleAnalyst/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313206381.060338
+e313206381.208312
+r1
+xCompileC
+xbuild/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/MainViewController.o
+x/Users/frank/Projects/CycleAnalyst/Classes/MainViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/frank/Projects/CycleAnalyst/Classes/MainViewController.m313206381#313206381#0(0"0(0#0#63"/Users/frank/Projects/CycleAnalyst/Classes/MainViewController.m8626706080#1816"    cd /Users/frank/Projects/CycleAnalyst    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-generated-files.hmap -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-own-target-headers.hmap -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-all-target-headers.hmap -iquote /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-project-headers.hmap -F/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos -I/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/include -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/DerivedSources/armv6 -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/DerivedSources -include /var/folders/-u/-ulM2hq12RWhR++8ZSzJp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleAnalyst_Prefix-giqrbbxtvafaqvcfpdannohpvoos/CycleAnalyst_Prefix.pch -c /Users/frank/Projects/CycleAnalyst/Classes/MainViewController.m -o /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/MainViewController.o0#
+
+CCompileC build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/SpeedometerView.o /Users/frank/Projects/CycleAnalyst/SpeedometerView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313206381.208435
+e313206381.416362
+r1
+xCompileC
+xbuild/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/SpeedometerView.o
+x/Users/frank/Projects/CycleAnalyst/SpeedometerView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/frank/Projects/CycleAnalyst/SpeedometerView.m313206381#313206381#0(0"0(0#0#52"/Users/frank/Projects/CycleAnalyst/SpeedometerView.m8630986112#1802"    cd /Users/frank/Projects/CycleAnalyst    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-generated-files.hmap -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-own-target-headers.hmap -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-all-target-headers.hmap -iquote /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-project-headers.hmap -F/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos -I/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/include -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/DerivedSources/armv6 -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/DerivedSources -include /var/folders/-u/-ulM2hq12RWhR++8ZSzJp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleAnalyst_Prefix-giqrbbxtvafaqvcfpdannohpvoos/CycleAnalyst_Prefix.pch -c /Users/frank/Projects/CycleAnalyst/SpeedometerView.m -o /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/SpeedometerView.o0#
+
+CCompileC build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/main.o /Users/frank/Projects/CycleAnalyst/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313206380.932269
+e313206381.060228
+r1
+xCompileC
+xbuild/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/main.o
+x/Users/frank/Projects/CycleAnalyst/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/frank/Projects/CycleAnalyst/main.m313206380#313206381#0(0"0(0#0#41"/Users/frank/Projects/CycleAnalyst/main.m8612663424#1780"    cd /Users/frank/Projects/CycleAnalyst    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-generated-files.hmap -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-own-target-headers.hmap -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-all-target-headers.hmap -iquote /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-project-headers.hmap -F/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos -I/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/include -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/DerivedSources/armv6 -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/DerivedSources -include /var/folders/-u/-ulM2hq12RWhR++8ZSzJp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleAnalyst_Prefix-giqrbbxtvafaqvcfpdannohpvoos/CycleAnalyst_Prefix.pch -c /Users/frank/Projects/CycleAnalyst/main.m -o /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/CycleAnalystAppDelegate.o /Users/frank/Projects/CycleAnalyst/Classes/CycleAnalystAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313206381.303852
+e313206381.408536
+r1
+xCompileC
+xbuild/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/CycleAnalystAppDelegate.o
+x/Users/frank/Projects/CycleAnalyst/Classes/CycleAnalystAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/frank/Projects/CycleAnalyst/Classes/CycleAnalystAppDelegate.m313206381#313206381#0(0"0(0#0#68"/Users/frank/Projects/CycleAnalyst/Classes/CycleAnalystAppDelegate.m8629109888#1826"    cd /Users/frank/Projects/CycleAnalyst    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-generated-files.hmap -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-own-target-headers.hmap -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-all-target-headers.hmap -iquote /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-project-headers.hmap -F/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos -I/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/include -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/DerivedSources/armv7 -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/DerivedSources -include /var/folders/-u/-ulM2hq12RWhR++8ZSzJp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleAnalyst_Prefix-gbmzcvgzqhowgvbzuinjxnbfpgzo/CycleAnalyst_Prefix.pch -c /Users/frank/Projects/CycleAnalyst/Classes/CycleAnalystAppDelegate.m -o /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/CycleAnalystAppDelegate.o0#
+
+CCompileC build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/FlipsideViewController.o /Users/frank/Projects/CycleAnalyst/Classes/FlipsideViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313206381.501191
+e313206381.614677
+r1
+xCompileC
+xbuild/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/FlipsideViewController.o
+x/Users/frank/Projects/CycleAnalyst/Classes/FlipsideViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/frank/Projects/CycleAnalyst/Classes/FlipsideViewController.m313206381#313206381#0(0"0(0#0#67"/Users/frank/Projects/CycleAnalyst/Classes/FlipsideViewController.m8630939008#1824"    cd /Users/frank/Projects/CycleAnalyst    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-generated-files.hmap -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-own-target-headers.hmap -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-all-target-headers.hmap -iquote /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-project-headers.hmap -F/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos -I/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/include -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/DerivedSources/armv7 -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/DerivedSources -include /var/folders/-u/-ulM2hq12RWhR++8ZSzJp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleAnalyst_Prefix-gbmzcvgzqhowgvbzuinjxnbfpgzo/CycleAnalyst_Prefix.pch -c /Users/frank/Projects/CycleAnalyst/Classes/FlipsideViewController.m -o /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/FlipsideViewController.o0#
+
+CCompileC build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/MainViewController.o /Users/frank/Projects/CycleAnalyst/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313206381.408710
+e313206381.501079
+r1
+xCompileC
+xbuild/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/MainViewController.o
+x/Users/frank/Projects/CycleAnalyst/Classes/MainViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/frank/Projects/CycleAnalyst/Classes/MainViewController.m313206381#313206381#0(0"0(0#0#63"/Users/frank/Projects/CycleAnalyst/Classes/MainViewController.m8630950944#1816"    cd /Users/frank/Projects/CycleAnalyst    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-generated-files.hmap -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-own-target-headers.hmap -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-all-target-headers.hmap -iquote /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-project-headers.hmap -F/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos -I/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/include -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/DerivedSources/armv7 -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/DerivedSources -include /var/folders/-u/-ulM2hq12RWhR++8ZSzJp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleAnalyst_Prefix-gbmzcvgzqhowgvbzuinjxnbfpgzo/CycleAnalyst_Prefix.pch -c /Users/frank/Projects/CycleAnalyst/Classes/MainViewController.m -o /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/MainViewController.o0#
+
+CCompileC build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/SpeedometerView.o /Users/frank/Projects/CycleAnalyst/SpeedometerView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313206381.614795
+e313206381.765801
+r1
+xCompileC
+xbuild/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/SpeedometerView.o
+x/Users/frank/Projects/CycleAnalyst/SpeedometerView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/frank/Projects/CycleAnalyst/SpeedometerView.m313206381#313206381#0(0"0(0#0#52"/Users/frank/Projects/CycleAnalyst/SpeedometerView.m8628481888#1802"    cd /Users/frank/Projects/CycleAnalyst    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-generated-files.hmap -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-own-target-headers.hmap -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-all-target-headers.hmap -iquote /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-project-headers.hmap -F/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos -I/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/include -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/DerivedSources/armv7 -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/DerivedSources -include /var/folders/-u/-ulM2hq12RWhR++8ZSzJp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleAnalyst_Prefix-gbmzcvgzqhowgvbzuinjxnbfpgzo/CycleAnalyst_Prefix.pch -c /Users/frank/Projects/CycleAnalyst/SpeedometerView.m -o /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/SpeedometerView.o0#
+
+CCompileC build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/main.o /Users/frank/Projects/CycleAnalyst/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313206381.219302
+e313206381.303737
+r1
+xCompileC
+xbuild/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/main.o
+x/Users/frank/Projects/CycleAnalyst/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/frank/Projects/CycleAnalyst/main.m313206381#313206381#0(0"0(0#0#41"/Users/frank/Projects/CycleAnalyst/main.m8629573728#1780"    cd /Users/frank/Projects/CycleAnalyst    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-generated-files.hmap -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-own-target-headers.hmap -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-all-target-headers.hmap -iquote /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-project-headers.hmap -F/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos -I/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/include -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/DerivedSources/armv7 -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/DerivedSources -include /var/folders/-u/-ulM2hq12RWhR++8ZSzJp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleAnalyst_Prefix-gbmzcvgzqhowgvbzuinjxnbfpgzo/CycleAnalyst_Prefix.pch -c /Users/frank/Projects/CycleAnalyst/main.m -o /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/frank/Projects/CycleAnalyst/FlipsideView.xib
+s313206378.802698
+e313206379.345322
+r1
+xCompileXIB
+x/Users/frank/Projects/CycleAnalyst/FlipsideView.xib
+lSLF07#2@27"CompileXIB FlipsideView.xib313206378#313206379#0(0"0(0#0#51"/Users/frank/Projects/CycleAnalyst/FlipsideView.xib8628884256#539"    cd /Users/frank/Projects/CycleAnalyst    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/FlipsideView.nib /Users/frank/Projects/CycleAnalyst/FlipsideView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/frank/Projects/CycleAnalyst/MainView.xib
+s313206378.803604
+e313206379.564493
+r1
+xCompileXIB
+x/Users/frank/Projects/CycleAnalyst/MainView.xib
+lSLF07#2@23"CompileXIB MainView.xib313206378#313206379#0(0"0(0#0#47"/Users/frank/Projects/CycleAnalyst/MainView.xib8628206432#531"    cd /Users/frank/Projects/CycleAnalyst    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/MainView.nib /Users/frank/Projects/CycleAnalyst/MainView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/frank/Projects/CycleAnalyst/MainWindow.xib
+s313206379.345426
+e313206379.870398
+r1
+xCompileXIB
+x/Users/frank/Projects/CycleAnalyst/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib313206379#313206379#0(0"0(0#0#49"/Users/frank/Projects/CycleAnalyst/MainWindow.xib8629123328#535"    cd /Users/frank/Projects/CycleAnalyst    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/MainWindow.nib /Users/frank/Projects/CycleAnalyst/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource build/Debug-iphoneos/CycleAnalyst.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s313206378.735704
+e313206378.802600
+r1
+xCpResource
+xbuild/Debug-iphoneos/CycleAnalyst.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist313206378#313206378#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist5994135409057033216#491"    cd /Users/frank/Projects/CycleAnalyst    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app0#
+
+CCreateUniversalBinary /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/CycleAnalyst normal "armv6 armv7"
+s313206381.947902
+e313206381.981184
+r1
+xCreateUniversalBinary
+x/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/CycleAnalyst
+xnormal
+xarmv6 armv7
+lSLF07#2@93"CreateUniversalBinary build/Debug-iphoneos/CycleAnalyst.app/CycleAnalyst normal "armv6 armv7"313206381#313206381#0(0"0(0#0#46"/Users/frank/Projects/CycleAnalyst/armv6 armv78629217088#542"    cd /Users/frank/Projects/CycleAnalyst    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/CycleAnalyst /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/CycleAnalyst -output /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/CycleAnalyst0#
+
+CGenerateDSYMFile /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app.dSYM /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/CycleAnalyst
+s313206381.981299
+e313206382.025316
+r1
+xGenerateDSYMFile
+x/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app.dSYM
+x/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/CycleAnalyst
+lSLF07#2@110"GenerateDSYMFile build/Debug-iphoneos/CycleAnalyst.app.dSYM build/Debug-iphoneos/CycleAnalyst.app/CycleAnalyst313206381#313206382#0(0"0(0#0#85"/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/CycleAnalyst8626122400#365"    cd /Users/frank/Projects/CycleAnalyst    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/CycleAnalyst -o /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app.dSYM0#
+
+CLd /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/CycleAnalyst normal armv6
+s313206381.416490
+e313206381.713589
+r1
+xLd
+x/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/CycleAnalyst
+xnormal
+xarmv6
+lSLF07#2@132"Link /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/CycleAnalyst313206381#313206381#0(0"0(0#0#0"8629606048#891"    cd /Users/frank/Projects/CycleAnalyst    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos -F/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos -filelist /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/CycleAnalyst.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv6/CycleAnalyst0#
+
+CLd /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/CycleAnalyst normal armv7
+s313206381.765906
+e313206381.947789
+r1
+xLd
+x/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/CycleAnalyst
+xnormal
+xarmv7
+lSLF07#2@132"Link /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/CycleAnalyst313206381#313206381#0(0"0(0#0#0"8631000576#891"    cd /Users/frank/Projects/CycleAnalyst    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos -F/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos -filelist /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/CycleAnalyst.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/Objects-normal/armv7/CycleAnalyst0#
+
+CProcessInfoPlistFile /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/Info.plist CycleAnalyst-Info.plist
+s313206378.737777
+e313206378.760264
+r1
+xProcessInfoPlistFile
+x/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/Info.plist
+xCycleAnalyst-Info.plist
+lSLF07#2@31"Process CycleAnalyst-Info.plist313206378#313206378#0(0"0(0#0#58"/Users/frank/Projects/CycleAnalyst/CycleAnalyst-Info.plist8626079712#566"    cd /Users/frank/Projects/CycleAnalyst    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CycleAnalyst-Info.plist -genpkginfo /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/ResourceRules.plist -o /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/Info.plist0#
+
+CProcessPCH /var/folders/-u/-ulM2hq12RWhR++8ZSzJp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleAnalyst_Prefix-gbmzcvgzqhowgvbzuinjxnbfpgzo/CycleAnalyst_Prefix.pch.gch CycleAnalyst_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313206379.871609
+e313206380.932153
+r1
+xProcessPCH
+x/var/folders/-u/-ulM2hq12RWhR++8ZSzJp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleAnalyst_Prefix-gbmzcvgzqhowgvbzuinjxnbfpgzo/CycleAnalyst_Prefix.pch.gch
+xCycleAnalyst_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile CycleAnalyst_Prefix.pch313206379#313206380#0(0"0(0#0#58"/Users/frank/Projects/CycleAnalyst/CycleAnalyst_Prefix.pch8627395168#1677"    cd /Users/frank/Projects/CycleAnalyst    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-generated-files.hmap -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-own-target-headers.hmap -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-all-target-headers.hmap -iquote /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-project-headers.hmap -F/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos -I/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/include -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/DerivedSources/armv7 -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/DerivedSources -c /Users/frank/Projects/CycleAnalyst/CycleAnalyst_Prefix.pch -o /var/folders/-u/-ulM2hq12RWhR++8ZSzJp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleAnalyst_Prefix-gbmzcvgzqhowgvbzuinjxnbfpgzo/CycleAnalyst_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/-u/-ulM2hq12RWhR++8ZSzJp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleAnalyst_Prefix-giqrbbxtvafaqvcfpdannohpvoos/CycleAnalyst_Prefix.pch.gch CycleAnalyst_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313206379.870533
+e313206380.912692
+r1
+xProcessPCH
+x/var/folders/-u/-ulM2hq12RWhR++8ZSzJp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleAnalyst_Prefix-giqrbbxtvafaqvcfpdannohpvoos/CycleAnalyst_Prefix.pch.gch
+xCycleAnalyst_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile CycleAnalyst_Prefix.pch313206379#313206380#0(0"0(0#0#58"/Users/frank/Projects/CycleAnalyst/CycleAnalyst_Prefix.pch8627996352#1677"    cd /Users/frank/Projects/CycleAnalyst    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-generated-files.hmap -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-own-target-headers.hmap -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-all-target-headers.hmap -iquote /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst-project-headers.hmap -F/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos -I/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/include -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/DerivedSources/armv6 -I/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/DerivedSources -c /Users/frank/Projects/CycleAnalyst/CycleAnalyst_Prefix.pch -o /var/folders/-u/-ulM2hq12RWhR++8ZSzJp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleAnalyst_Prefix-giqrbbxtvafaqvcfpdannohpvoos/CycleAnalyst_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/frank/Library/MobileDevice/Provisioning Profiles/AC8F20E7-0A6C-4A5F-B4C9-3CF8F1E11E49.mobileprovision" /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/embedded.mobileprovision
+s313206382.025439
+e313206382.027122
+r1
+xProcessProductPackaging
+x/Users/frank/Library/MobileDevice/Provisioning Profiles/AC8F20E7-0A6C-4A5F-B4C9-3CF8F1E11E49.mobileprovision
+x/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/embedded.mobileprovision
+lSLF07#2@197"ProcessProductPackaging "/Users/frank/Library/MobileDevice/Provisioning Profiles/AC8F20E7-0A6C-4A5F-B4C9-3CF8F1E11E49.mobileprovision" build/Debug-iphoneos/CycleAnalyst.app/embedded.mobileprovision313206382#313206382#0(0"0(0#0#97"/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/embedded.mobileprovision8621077984#420"    cd /Users/frank/Projects/CycleAnalyst    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/frank/Library/MobileDevice/Provisioning Profiles/AC8F20E7-0A6C-4A5F-B4C9-3CF8F1E11E49.mobileprovision" -o /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Users/frank/Projects/CycleAnalyst/Entitlements.plist /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst.xcent
+s313206382.030805
+e313206382.032632
+r1
+xProcessProductPackaging
+x/Users/frank/Projects/CycleAnalyst/Entitlements.plist
+x/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst.xcent
+lSLF07#2@120"ProcessProductPackaging Entitlements.plist build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst.xcent313206382#313206382#0(0"0(0#0#112"/Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst.xcent8628713056#404"    cd /Users/frank/Projects/CycleAnalyst    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Users/frank/Projects/CycleAnalyst/Entitlements.plist -entitlements -format xml -o /Users/frank/Projects/CycleAnalyst/build/CycleAnalyst.build/Debug-iphoneos/CycleAnalyst.build/CycleAnalyst.xcent0#
+
+CTouch /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app
+s313206382.027187
+e313206382.030711
+r1
+xTouch
+x/Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app
+lSLF07#2@78"Touch /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app313206382#313206382#0(0"0(0#0#0"8603312832#261"    cd /Users/frank/Projects/CycleAnalyst    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/frank/Projects/CycleAnalyst/build/Debug-iphoneos/CycleAnalyst.app0#
+
