@@ -129,7 +129,10 @@
 	
 	float minorTickAngleIncrement = self.arcLength / (float)numberOfMinorTicks;
 	
-	float textHeight = self.textLabel.font.lineHeight;
+	float textHeight = self.textLabel.font.pointSize;
+	if ([textLabel.font respondsToSelector:@selector(lineHeight)])
+		textHeight = self.textLabel.font.lineHeight;		
+		
 	float textInset = textHeight + tickLength;
 	
 	float angle = startAngle;

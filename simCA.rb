@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-serial = File.new("/dev/cu.PL2303-00001004", "w")
+serial = File.new("/dev/cu.PL2303-00002006", "w")
 
 DATA.each do |line|
   serial.syswrite(line)
