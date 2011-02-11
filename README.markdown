@@ -14,6 +14,8 @@ Testing
 
 This project has not been tested with an actual unit. Instead I have used a USB serial interface (in my case a PL2303-chipset device on my MacBook) and a small (included) ruby script (simCA.rb). 
 
+I also made a [short video demo](http://www.youtube.com/watch?v=BTxl-Iu761s) ofthe testing process on my iPad shot with my iPhone. 
+
 Small Print
 -----------
 
